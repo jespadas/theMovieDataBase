@@ -13,7 +13,7 @@ namespace TheMovieDataBase.Models
 
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
-        public string 
-
+        public string Genre { get; set; }
+        public decimal Price { get; set; }
     }
 }
